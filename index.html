@@ -4,49 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <section>
+
+<body>    
+<section>
     <nav>
-       <img src="/assests/FES.svg" alt="Front End Simplified"> 
-       <ul>
-        <li><a href="#about">about</a></li>
-        <li><a href="#discord">discord</a></li>
-        <li><a href="#contact">contact</a></li>
-       </ul>
+        <img src="/assests/FES.svg" class="logo" alt="Front End Simplified"> 
+            <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#discord">Discord</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
     </nav>
+   
     <header>
+      <div class="row">  
         <div>
             <h1>Best place to learn frontend</h1>
-            <p>Learn from the best to be the best with Front End Simplified</p>
-            <button>start now</button>
+            <p class="subheader">Learn from the best to be the best with Front End Simplified</p>
+            <button class="hedge">start now</button>
         </div>
-        <figure>
-            <img src="assests/laptop.png" alt="laptop image">
-        </figure>
+        
+    <figure>
+        <img src="assests/laptop.png" alt="laptop image">
+    </figure>
     </header>
-    </section>
     
-    <main>
-        <section id="about">
+</section>
+    
+<main>
+<section id="about">
             <h2>About</h2>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique perferendis voluptatem repudiandae. 
-                Vel dolor facere commodi totam officia corporis, nemo, earum vitae dolores sit reprehenderit nesciunt eos ex quisquam.</p>
-            </div>
-            <figure> 
+    <div class="section__description">
+        <div class="section__description--wrapper">
+            <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique perferendis voluptatem repudiandae. Vel dolor facere commodi totam officia corporis, nemo, earum vitae dolores sit reprehenderit nesciunt eos ex quisquam.</p>
+    </div>
+            <figure class="about__img--wrapper"> 
                 <img src="/assests/about.jpg" alt="about img">
             </figure>
-        <section id="discord">
+       
+<section id="discord">
             <h2>Discord</h2>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique perferendis voluptatem repudiandae. 
-                Vel dolor facere commodi totam officia corporis, nemo, earum vitae dolores sit reprehenderit nesciunt eos ex quisquam.</p>
-            </div>
-            <figure> 
+    <div class="section__description">
+            <figure class="about__img--wrapper"> 
                 <img src="/assests/discord.png" alt="discord img">
             </figure>
-        <section id="contact">
+             <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique perferendis voluptatem repudiandae. 
+                Vel dolor facere commodi totam officia corporis, nemo, earum vitae dolores sit reprehenderit nesciunt eos ex quisquam.</p>
+    </div>       
+       
+<section id="contact">
             <h2>Contact</h2>
             <form action="">
                 <label for="Email"></label>
@@ -55,9 +63,9 @@
                 <textarea type="Text" placeholder="Message"></textarea>
                 <button>Submit</button>
             </form>
-    </main>
+</main>
 
-    <footer>
+<footer>
     <div>
     <img src="/assests/FES.svg" alt="Front End Simplified"> 
        <ul>
