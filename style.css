@@ -178,11 +178,11 @@ nav {
 }
 
 .about-me__picture {
-  width: 100%;
+  width: 80%;
 
   /* Improving my own picture */
   transform: scale(1.5);
-  padding-top: 8px;
+  padding-top: 20px;
 }
 
 .about-me__info--title {
